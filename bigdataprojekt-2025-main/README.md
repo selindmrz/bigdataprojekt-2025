@@ -7,6 +7,7 @@
 
 Um jeweils den Code der obigen Dateien ausführen zu können, müssen die folgenden Bibliotheken installiert werden:
 
+Os
 NumPy: 1.26.4
 Random
 Matplotlib: 3.10.0
@@ -15,4 +16,4 @@ Torchvision: 0.14.0+cpu
 Scikit-learn: 1.6.1
 TensorFlow: 2.10.0
 Pandas: 2.2.3
-Os 
+Seaborn: 0.13.2
