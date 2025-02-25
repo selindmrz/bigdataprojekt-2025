@@ -1,7 +1,7 @@
 # bigdataprojekt-2025
  
 - main.ipynb enthält das finale CNN-Modell zur Klassifikation von Hunden- und Katzenbilder sowie die Metriken zur Modellbewertung in einer Konfusionsmatrix.
-- In model_validation.ipynb werden beispielhaft 20 und 100 ungelabelte Testdaten aus dem Testordner (test1) geladen und vom CNN-Modell klassifiziert.
+- In model_validation.ipynb werden beispielhaft 20 ungelabelte Testdaten aus dem Testordner (test1) geladen und vom CNN-Modell klassifiziert.
 - In test.ipynb wurde das Modell schrittweise erweitert und experimentell ausgetestet.
 - In CNN_model.keras ist das CNN-Modell gespeichert.
 
