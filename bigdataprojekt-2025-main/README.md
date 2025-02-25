@@ -1,21 +1,18 @@
 # bigdataprojekt-2025
  
-main.ipynb ist die Datei, in dem das CNN-Modell zur Klassifikation von Hund- und Katzenbildern programmiert ist.
-Um diesen Code ausführen zu können, müssen die folgenden Bibliotheken installiert werden:
+- main.ipynb enthält das finale CNN-Modell zur Klassifikation von Hunden- und Katzenbilder sowie die Metriken zur Modellbewertung in einer Konfusionsmatrix.
+- In model_validation.ipynb werden beispielhaft 20 und 100 ungelabelte Testdaten aus dem Testordner (test1) geladen und vom CNN-Modell klassifiziert.
+- In test.ipynb wurde das Modell schrittweise erweitert und experimentell ausgetestet.
+- In CNN_model.keras ist das CNN-Modell gespeichert.
 
-torch
-torchvision
-tensorflow
-keras
-pandas
-numpy
-Pillow
-scikit-learn
-matplotlib
-seaborn
+Um jeweils den Code der obigen Dateien ausführen zu können, müssen die folgenden Bibliotheken installiert werden:
 
-Anschließend können die Bibliotheken importiert werden. Danach soll der Code-Teil zur Abrufung und Aufteilung der Trainings- und Validierungsdaten ausgeführt werden. Letztendlich beinhaltet der letzte Code-Block das CNN-Modell. Das Modell durchläuft 20 Epochen, wobei das Early-Stopping einen vorherigen Stopp erzwingt, wenn das Modell nicht mehr dazulernt.
-
-In CNN_model.keras ist das Modell zur Klassifikation von Hund- und Katzenbildern gespeichert.
-
-model_validation.ipynb ist die Datei, in der das CNN-Modell validiert wird. Hierbei werden ungelabelte Testdaten aus dem Testordner (tes1) geladen und klassifiziert.
+NumPy: 1.26.4
+Random
+Matplotlib: 3.10.0
+PyTorch: 1.13.0+cpu
+Torchvision: 0.14.0+cpu
+Scikit-learn: 1.6.1
+TensorFlow: 2.10.0
+Pandas: 2.2.3
+Os 
